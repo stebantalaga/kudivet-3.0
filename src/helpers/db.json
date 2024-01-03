@@ -1,0 +1,258 @@
+{
+  "cliente": [
+    {
+      "id": 1,
+      "nombre": "Coco",
+      "animal": "Gato",
+      "raza": "Angora",
+      "edad": 2,
+      "dueño": "Carla Torres"
+    },
+    {
+      "id": 2,
+      "nombre": "Tama",
+      "animal": "Perro",
+      "raza": "Affenpinscher",
+      "edad": 8,
+      "dueño": "Daniel Herrera"
+    },
+    {
+      "id": 3,
+      "nombre": "Luna",
+      "animal": "Gato",
+      "raza": "Egipcio",
+      "edad": 4,
+      "dueño": "Milena Ortiz"
+    },
+    {
+      "id": 4,
+      "nombre": "Coraline",
+      "animal": "Gato",
+      "raza": "Persa",
+      "edad": 2,
+      "dueño": "Juan Perlaza"
+    },
+    {
+      "id": 5,
+      "nombre": "Zeus",
+      "animal": "Perro",
+      "raza": "Basenji",
+      "edad": 6,
+      "dueño": "David Estupiñan"
+    }
+  ],
+  "inventario": [
+    {
+      "id": 1,
+      "producto": "Shampoo para Perros",
+      "categoria": "Aseo",
+      "stock": 24,
+      "precio": 20000
+    },
+    {
+      "id": 2,
+      "producto": "Collar Antipulgas",
+      "categoria": "Salud",
+      "stock": 50,
+      "precio": 15000
+    },
+    {
+      "id": 3,
+      "producto": "Comida para Gatos",
+      "categoria": "Alimentación",
+      "stock": 40,
+      "precio": 30000
+    },
+    {
+      "id": 4,
+      "producto": "Juguete para Conejos",
+      "categoria": "Juguetes",
+      "stock": 15,
+      "precio": 10000
+    },
+    {
+      "id": 5,
+      "producto": "Hueso para Perros",
+      "categoria": "Snacks",
+      "stock": 35,
+      "precio": 25000
+    },
+    {
+      "id": 6,
+      "producto": "Arena para Gatos",
+      "categoria": "Aseo",
+      "stock": 30,
+      "precio": 18000
+    },
+    {
+      "id": 7,
+      "producto": "Cama para Mascotas",
+      "categoria": "Accesorios",
+      "stock": 20,
+      "precio": 35000
+    },
+    {
+      "id": 8,
+      "producto": "Vacuna Canina",
+      "categoria": "Salud",
+      "stock": 10,
+      "precio": 50000
+    },
+    {
+      "id": 9,
+      "producto": "Peine para Perros",
+      "categoria": "Aseo",
+      "stock": 28,
+      "precio": 12000
+    },
+    {
+      "id": 10,
+      "producto": "Arnés para Gatos",
+      "categoria": "Accesorios",
+      "stock": 18,
+      "precio": 22000
+    },
+    {
+      "id": 11,
+      "producto": "Snacks para Pájaros",
+      "categoria": "Snacks",
+      "stock": 25,
+      "precio": 18000
+    },
+    {
+      "id": 12,
+      "producto": "Correa para Conejos",
+      "categoria": "Accesorios",
+      "stock": 12,
+      "precio": 15000
+    },
+    {
+      "id": 13,
+      "producto": "Cepillo para Gatos",
+      "categoria": "Aseo",
+      "stock": 22,
+      "precio": 16000
+    },
+    {
+      "id": 14,
+      "producto": "Juguete para Perros",
+      "categoria": "Juguetes",
+      "stock": 30,
+      "precio": 22000
+    },
+    {
+      "id": 15,
+      "producto": "Comida para Peces",
+      "categoria": "Alimentación",
+      "stock": 40,
+      "precio": 25000
+    },
+    {
+      "id": 16,
+      "producto": "Terrario para Reptiles",
+      "categoria": "Hábitats",
+      "stock": 8,
+      "precio": 45000
+    },
+    {
+      "id": 17,
+      "producto": "Cama para Conejos",
+      "categoria": "Accesorios",
+      "stock": 15,
+      "precio": 30000
+    },
+    {
+      "id": 18,
+      "producto": "Arena para Hámsters",
+      "categoria": "Aseo",
+      "stock": 20,
+      "precio": 12000
+    },
+    {
+      "id": 19,
+      "producto": "Juguete para Pájaros",
+      "categoria": "Juguetes",
+      "stock": 18,
+      "precio": 10000
+    },
+    {
+      "id": 20,
+      "producto": "Cepillo para Caballos",
+      "categoria": "Aseo",
+      "stock": 5,
+      "precio": 60000
+    }
+  ],
+  "personal": [
+    {
+      "id": 1,
+      "nombre": "Daniel Morelo",
+      "cargo": "Administrador",
+      "celular": 3148875693,
+      "correo": "danimoreno@gmail.com"
+    },
+    {
+      "id": 2,
+      "nombre": "Laura Ramírez",
+      "cargo": "Veterinario",
+      "celular": 3101234567,
+      "correo": "laura.ramirez@gmail.com"
+    },
+    {
+      "id": 3,
+      "nombre": "Carlos López",
+      "cargo": "Asistente Veterinario",
+      "celular": 3112345678,
+      "correo": "carlos.lopez@gmail.com"
+    },
+    {
+      "id": 4,
+      "nombre": "Ana Gómez",
+      "cargo": "Recepcionista",
+      "celular": 3123456789,
+      "correo": "ana.gomez@gmail.com"
+    },
+    {
+      "id": 5,
+      "nombre": "Sofía Torres",
+      "cargo": "Veterinario",
+      "celular": 3134567890,
+      "correo": "sofia.torres@gmail.com"
+    },
+    {
+      "id": 6,
+      "nombre": "Javier Sánchez",
+      "cargo": "Asistente Veterinario",
+      "celular": 3145678901,
+      "correo": "javier.sanchez@gmail.com"
+    },
+    {
+      "id": 7,
+      "nombre": "Lina Vargas",
+      "cargo": "Recepcionista",
+      "celular": 3156789012,
+      "correo": "lina.vargas@gmail.com"
+    },
+    {
+      "id": 8,
+      "nombre": "Martín Jiménez",
+      "cargo": "Veterinario",
+      "celular": 3167890123,
+      "correo": "martin.jimenez@gmail.com"
+    },
+    {
+      "id": 9,
+      "nombre": "Isabel Medina",
+      "cargo": "Asistente Veterinario",
+      "celular": 3178901234,
+      "correo": "isabel.medina@gmail.com"
+    },
+    {
+      "id": 10,
+      "nombre": "Eduardo Paredes",
+      "cargo": "Recepcionista",
+      "celular": 3189012345,
+      "correo": "eduardo.paredes@gmail.com"
+    }
+  ]
+}
