@@ -10,8 +10,6 @@ Pasos para correr el proyecto:
 </ol>
 </br>
 Video de las pruebas de Software realizas:
-https://youtu.be/ZKTA70evmSI?si=6ip8_SzX0qJUOFGl
 </br>
-Enlace al proyecto desplegado en Netlify:
-
+https://youtu.be/ZKTA70evmSI?si=6ip8_SzX0qJUOFGl
 </br>
