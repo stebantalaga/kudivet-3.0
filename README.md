@@ -1,8 +1,17 @@
-# React + Vite
+# Proyecto KudiVet 3.0
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Pasos para correr el proyecto:
+<ol>
+  <li>Descargar el repositorio</li>
+  <li>Abrir el repositorio en Visual Studio Code</li>
+  <li>Ejecutar en la terminal el comando: npm install</li>
+  <li>Ejecutar en la terminal el comando: npm run dev</li>
+    <li>Ejecutar en una segunda terminal el compando: npm run fake-api</li>
+</ol>
+</br>
+Video de las pruebas de Software realizas:
+https://youtu.be/ZKTA70evmSI?si=6ip8_SzX0qJUOFGl
+</br>
+Enlace al proyecto desplegado en Netlify:
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+</br>
