@@ -1,0 +1,17 @@
+// overwrite theme variables
+
+// test theme
+$primary: #6F48FF;
+$secondary: #5C6474;
+$dark: rgb(0, 0, 0);
+$light: rgb(255, 255, 255);
+$success: #5AAF02;
+$info: #196dd3;
+$warning: #FFC530;
+$danger: #FB3D3D;
+
+.button-ifo {
+    color: white;
+}
+// import bootstrap styles at the bottom!
+@import './node_modules/bootstrap/scss/bootstrap.scss';

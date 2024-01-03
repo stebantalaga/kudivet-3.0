@@ -1,0 +1,225 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.contenedor-principal {
+  height: 100%;
+  display: flex;
+  align-content: center;
+}
+
+.padre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  border: 1px solid #DEE2EB;
+  padding: 40px;
+  border-radius: 12px;
+}
+
+.tamaño-imagen {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+}
+
+.kudivet-logo {
+  height: 120px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+.formulario {
+ background-color: #ffffff;  
+}
+
+.cajatexto {
+  padding: 8px 10px;
+  width: 100%;
+  border-radius: 4px;
+  margin-bottom: 16px;
+}
+
+.btn-large {
+  padding: 12px 16px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.btn-form {
+  background-color: #6F48FF;
+  color: #fff;
+  border: none;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.wrap-space-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.table-item {
+  /*width: 100%;*/
+  overflow: hidden;
+  padding: 8px 16px;
+  text-align: left;
+}
+
+.table-header {
+  background-color: #5C6474;
+  color: #fff;
+}
+.table-main {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  overflow: hidden;
+  border: 1px solid #DEE2EB;
+  border-radius: 6px;
+}
+
+.table-row {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #DEE2EB;
+}
+
+.wrap-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.container {
+  margin-top: 24px;
+}
+
+.label-form {
+  width: 100%;
+  text-align: left;
+}
+.btn-custom {
+  background-color: #6F48FF;
+}
+/* Estilos para los Tabs*/
+.baseTab{
+  border-left: 1px solid #e9ecef !important;
+  cursor: pointer;
+}
+
+.baseTab:hover{
+  background-color: #6F48FF !important;
+  color: white !important;
+}
+
+.activeTab{
+  background-color: #6F48FF !important;
+  color: white !important;
+}
+
+
+/* Results componet */
+.result-container {
+  margin: 0 auto;
+}
+.result-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 2%;
+}
+
+
+/* Item component */
+.card-raza {
+  /* border: 1px solid gray; */
+  background-color: #fff;
+  width: 32%;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 16px;
+  cursor: pointer;
+  text-align: left;
+}
+.card-raza p {
+  width: 100%;
+}
+.card-raza.dark-mode {
+  background-color: #4a4a4a;
+  box-shadow: rgba(248, 246, 246, 0.395) 0px 1px 3px 0px, rgba(242, 243, 244, 0.326) 0px 0px 0px 1px;
+}
+.card-raza.dark-mode h4 {
+  color: #fff;
+}
+.card-raza:hover p.mascota-imagen {
+  animation: moveemoji 1.5s infinite;
+}
+@keyframes moveemoji {
+  0% {
+      transform: translateX(0px);
+  }
+  50% {
+      transform: translateX(10px);
+  }
+  100% {
+      transform: translateX(0px);
+  }
+}
+
+.mascota-imagen {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.search-input {
+  padding: 2px 12px;
+}
+
+.card-raza {
+  position: relative;
+}
+p.copied {
+  font-size: 15px;
+  font-weight: 600;
+  margin: 0;
+  position: absolute;
+  bottom: 8px;
+  left: 10px;
+  background-color: #ffdd67;
+  padding: 5px;
+  border-radius: 5px;
+}
+p.error {
+  font-size: 15px;
+  font-weight: 600;
+  margin: 0;
+  position: absolute;
+  bottom: 19px;
+  background-color: #ffdd67;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.search-form {
+  width: 100%;
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
